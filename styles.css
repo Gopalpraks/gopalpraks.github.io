@@ -1,0 +1,126 @@
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: medium;
+    line-height: 1.6;
+    /*background-color:#404146;*/
+    background-color:#151616ec;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Header with flexbox */
+header {
+    background-color:#333;
+    /*color:#23c5c5;*/
+    color :#d62ae6ec;
+    display: flex;                  /* Flexbox layout */
+    justify-content: space-between; /* Push items to edges */
+    align-items: center;            /* Center vertically */
+    padding: 0.5rem 2rem;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin: 0;
+    margin-left : 200px
+}
+
+h2 {
+color :#55cc6b;
+}
+
+.content a {
+    color :#d62ae6ec;
+    /*color :#23c5c5;*/
+    /*color :#45dd66ec;*/
+    text-decoration : none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;   /* Horizontal layout */
+    gap: 20px;       /* Space between items */
+    margin: 0;
+    padding: 0;
+    margin-right: 200px;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color :#d62ae6ec;
+    /*color: #23c5c5;*/
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: #c4d3d3;
+    font-size: 20px;
+}
+
+.main {
+    flex: 3;
+    margin-right: 20px;
+}
+
+aside {
+    flex: 1;
+}
+
+.matrix-container {
+    position: top;
+    width: 100%;
+    max-height: 90px;
+    z-index: -1;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.profile-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.profile-pic img {
+    width: 180px;       /* Adjust size */
+    height: auto;       /* Keeps aspect ratio */
+    border-radius: 10%; /* Makes it circular */
+    border: 3px solid #ccc;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
