@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../../_sass/main.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA;EACA;EACA;EACA","sourcesContent":[":root {\n  --bs-dark: #481F02;\n  --bs-dark-rgb: 72, 31, 2;\n  --bs-link-color-rgb: 72, 31, 2;\n  --bs-link-hover-color-rgb: 109, 57, 20;\n  --bs-body-color: #003366;\n  --bs-heading-color: #271000;\n}"],"file":"styles.css"}
